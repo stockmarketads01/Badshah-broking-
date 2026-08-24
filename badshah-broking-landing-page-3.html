@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Badshah Broking | Market Updates</title>
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1850172485967392');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1850172485967392&ev=PageView&noscript=1"/></noscript>
+
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#07111f;color:#fff}
+.wrap{max-width:560px;margin:auto;padding:18px}.card{background:linear-gradient(145deg,#10233d,#081321);
+border:1px solid #244568;border-radius:22px;padding:25px 20px;box-shadow:0 15px 45px #0008}
+.badge{display:inline-block;background:#17385b;color:#7fc5ff;padding:7px 12px;border-radius:50px;font-size:12px;font-weight:700}
+h1{font-size:39px;line-height:1.05;margin:16px 0 10px}h1 span{color:#35b9ff}
+.sub{color:#b9c9d9;font-size:16px;line-height:1.5}.timer{margin:22px 0;padding:18px;text-align:center;
+border-radius:17px;background:#050b13;border:1px solid #31516e}.timer small{color:#8fa8be}.time{font-size:42px;
+font-weight:800;letter-spacing:4px;margin-top:5px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+.item{padding:13px;border-radius:13px;background:#0c1b2c;border:1px solid #203b57;font-size:13px;color:#d9e5ef}
+.item b{display:block;color:#fff;margin-bottom:5px}.cta{display:block;width:100%;padding:16px;text-align:center;
+border-radius:14px;background:#159447;color:#fff;text-decoration:none;font-weight:800;font-size:18px;
+box-shadow:0 8px 25px #15944755}.note{font-size:11px;color:#8fa1b2;text-align:center;line-height:1.5;margin-top:15px}
+.footer{text-align:center;color:#7890a7;font-size:11px;margin:15px}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="card">
+<div class="badge">BADSHAH BROKING • MARKET COMMUNITY</div>
+<h1>Stock Market <span>Updates</span></h1>
+<p class="sub">Market education, watchlists and timely market updates ke liye hamari Telegram community join karein.</p>
+
+<div class="timer"><small>JOIN WINDOW</small><div class="time" id="timer">00:05:01</div></div>
+
+<div class="grid">
+<div class="item"><b>📊 Market Updates</b>Important market information</div>
+<div class="item"><b>📈 Watchlists</b>Research-based ideas</div>
+<div class="item"><b>🎓 Learning</b>Market concepts & insights</div>
+<div class="item"><b>🔔 Alerts</b>Timely community updates</div>
+</div>
+
+<a class="cta" id="telegramBtn" href="https://t.me/+tzqOXlG5nzUzNTNl" target="_blank" rel="noopener">
+✈️ JOIN TELEGRAM
+</a>
+
+<p class="note">Market investments are subject to market risks. Information shared in the community is for educational purposes only and is not a guarantee of returns or financial advice.</p>
+</div>
+<div class="footer">© 2026 Badshah Broking</div></div>
+
+<script>
+let seconds=301;
+const timer=document.getElementById('timer');
+function tick(){
+  const m=String(Math.floor(seconds/60)).padStart(2,'0');
+  const s=String(seconds%60).padStart(2,'0');
+  timer.textContent=`00:${m}:${s}`;
+  if(seconds>0) seconds--; else clearInterval(interval);
+}
+tick(); const interval=setInterval(tick,1000);
+
+document.getElementById('telegramBtn').addEventListener('click',function(){
+  if(typeof fbq==='function'){
+    fbq('track','Lead',{content_name:'Badshah Broking Telegram Join'});
+  }
+});
+</script>
+</body>
+</html>
